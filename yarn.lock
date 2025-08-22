@@ -1206,6 +1206,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@siimple/icons@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.npmjs.org/@siimple/icons/-/icons-0.3.1.tgz"
+  integrity sha512-LMdPvZD0aG4XnVxjPEd8915EuP9ZuIgf1EwLk34VDLE2D85KpUKyMpE5huRuYdiWxkVIPkWcyCd5doU1n3ealQ==
+
 "@tanstack/query-core@4.36.1":
   version "4.36.1"
   resolved "https://registry.npmjs.org/@tanstack/query-core/-/query-core-4.36.1.tgz"
@@ -2167,6 +2172,11 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   integrity sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==
+
+fsevents@~2.3.2:
+  version "2.3.3"
+  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz"
+  integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -3170,6 +3180,13 @@ side-channel@^1.0.4:
     call-bind "^1.0.0"
     get-intrinsic "^1.0.2"
     object-inspect "^1.9.0"
+
+siimple-icons@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.npmjs.org/siimple-icons/-/siimple-icons-4.3.1.tgz"
+  integrity sha512-1RcCUB6aRnxfkOm8+rVJAVkk9ytnfun7niFMw9OiMVc9lyvUkaeHk+Nd/CGiymSuFoxpIMIcDWP4qmKlkAjg4A==
+  dependencies:
+    "@siimple/icons" "^0.3.1"
 
 slash@^2.0.0:
   version "2.0.0"
