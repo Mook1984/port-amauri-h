@@ -57,13 +57,13 @@ export default function SlideMenu({ isOpen, onClose }: Props) {
         &times;
       </CloseBtn>
       <OverlayContent>
-        <OverlayLink href="#about" onClick={onClose}>
+        <OverlayLink href="/#about" onClick={onClose}>
           About
         </OverlayLink>
-        <OverlayLink href="/portfolio" onClick={onClose}>
+        <OverlayLink href="/#portfolio" onClick={onClose}>
           Portfolio
         </OverlayLink>
-        <OverlayLink href="#contact" onClick={onClose}>
+        <OverlayLink href="/#contact" onClick={onClose}>
           Contact
         </OverlayLink>
       </OverlayContent>

@@ -32,7 +32,8 @@ const MenuButton = styled.button`
   padding: 8px 12px;
   cursor: pointer;
 `;
-export const PortfolioPage = () => {
+
+export const AboutPage = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <main>
@@ -41,8 +42,11 @@ export const PortfolioPage = () => {
           Menu
         </MenuButton>
         <Wrapper>
-          <HeroTitle>Portfolio</HeroTitle>
-          {/* Back to homepage — clears the hash so homepage shows again */}
+          <HeroTitle>About</HeroTitle>
+          <p style={{ maxWidth: 800, margin: '1rem auto', fontSize: 18 }}>
+            Brief bio and details about you. Edit this content to describe your background,
+            interests, education, and anything else you'd like to share.
+          </p>
           <div style={{ marginTop: 24 }}>
             <button
               onClick={() => {
@@ -66,4 +70,5 @@ export const PortfolioPage = () => {
     </main>
   );
 };
-export default PortfolioPage;
+
+export default AboutPage;

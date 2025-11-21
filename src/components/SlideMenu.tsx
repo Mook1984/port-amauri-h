@@ -126,13 +126,16 @@ export default function SlideMenu({ isOpen, onClose }: Props) {
         &times;
       </CloseBtn>
       <OverlayContent>
-        <OverlayLink href="#about" onClick={onClose} tabIndex={tabIndexVal}>
+        <OverlayLink href="/#about" onClick={onClose} tabIndex={tabIndexVal}>
           About
         </OverlayLink>
-        <OverlayLink href="#portfolio" onClick={onClose} tabIndex={tabIndexVal}>
+        <OverlayLink href="/#portfolio" onClick={onClose} tabIndex={tabIndexVal}>
           Portfolio
         </OverlayLink>
-        <OverlayLink href="#contact" onClick={onClose} tabIndex={tabIndexVal}>
+        <OverlayLink href="/#senior-project" onClick={onClose} tabIndex={tabIndexVal}>
+          Senior Project
+        </OverlayLink>
+        <OverlayLink href="/#contact" onClick={onClose} tabIndex={tabIndexVal}>
           Contact
         </OverlayLink>
       </OverlayContent>
